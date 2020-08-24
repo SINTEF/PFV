@@ -67,7 +67,7 @@ if __name__ == '__main__':
         output = model(input_batch)
 
     # Extract visualisation
-    vis = pfv(embeddings, image_shape=input_batch.shape[-2:], idx_layer=len(embeddings)-1, hierarchical=True)
+    vis = pfv(embeddings, image_shape=input_batch.shape[-2:], idx_layer=len(embeddings)-1, hierarchical=False)
 
 
     def concat(imgs, f=lambda x: x):
