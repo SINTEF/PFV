@@ -4,9 +4,9 @@ Principal feature visualization is a visualization technique for convolutional n
 <img src="docs/overview_fig.png" width="480">
 
 ## Dependencies
-pytorch
-torchvision
-matplotlib
+* pytorch
+* torchvision
+* matplotlib
 
 ## Getting started
 Install the dependencies listed above, and run the example in demo.py: `python demo.py`
