@@ -7,8 +7,12 @@ It produces one RGB heatmap per input image.
 
 ## Dependencies
 * pytorch
+* numpy
+
+### Additional dependencies for the demo:
 * torchvision
 * matplotlib
+* pillow
 
 ## Getting started
 Install the dependencies listed above, and run the example in demo.py: `python demo.py`
