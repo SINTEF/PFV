@@ -26,3 +26,20 @@ A trained network shows good localization:
 But an untrained (re-initialized) network shows scrambled output, as expected:
 
 <img src="docs/untrained_result.png" width="480">
+
+## The paper
+This method was presented at ECCV 2020. Please see [the full paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680018.pdf) and [supplementary material](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680018-supp.pdf) for more information about our method.
+
+If you find this useful, please cite:
+
+```
+@inproceedings{bakken2020principal,
+  title={Principal Feature Visualisation in Convolutional Neural Networks},
+  author={Bakken, Marianne and Kvam, Johannes and Stepanov, Alexey A and Berge, Asbj{\o}rn},
+  booktitle={European Conference on Computer Vision},
+  pages={18--31},
+  year={2020},
+  organization={Springer}
+}
+```
+
